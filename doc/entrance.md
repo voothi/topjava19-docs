@@ -14,12 +14,22 @@ Java Enterprise Online Project
     Старинная китайская поговорка
 
 ## <a href="description.md">Описание и план проекта</a>
+- [x] Разобрал
+
 ### <a href="http://topjava.herokuapp.com/" target=_blank>Демо разрабатываемого приложения</a>
+- [x] Разобрал
+
 ### [Изменения проекта (Release Notes)](ReleaseNotes.md)
+- [x] Разобрал
+
 ### <a href="https://github.com/JavaOPs/topjava/wiki">Требования к участникам, Wiki</a>
+- [ ] Разобрал
+
 ### <a href="cv.md">Составление резюме, подготовка к интервью, поиск работы</a>
+- [ ] Разобрал
 
 ### [Демо разрабатываемого приложения](http://topjava.herokuapp.com/)
+- [x] Разобрал
 
 Вводное занятие (обязательно смотреть все видео)
 ===============
@@ -39,7 +49,7 @@ Java Enterprise Online Project
 - <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">Presentation</a>
 
 ## Системы управления версиями. Git
-- [ ] Разобрал
+- [x] Разобрал
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/file/d/0B9Ye2auQ_NsFSUNrdVc0bDZuX2s">Системы управления версиями. Git.</a>
 -  **<a href="https://github.com/JavaOPs/topjava/wiki/Git">Wiki по ведению проекта в Git</a>**
@@ -93,6 +103,8 @@ Java Enterprise Online Project
 - [Типы промежутков](https://ru.wikipedia.org/wiki/Промежуток_(математика))
 
 ## Домашнее задание HW0
+- [ ] Разобрал
+
 ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Домашнее задание HW0
 ```
 Реализовать метод `UserMealsUtil.filteredByCycles` через циклы (`forEach`):
@@ -115,6 +127,8 @@ Java Enterprise Online Project
 #### ВНИМАНИЕ: варианты Optional делайте в `UserMealsUtil` в одной ветке в разных методах. Проще делать, проще проверять
 
 ### Optional (Java 8 Stream API)
+- [ ] Разобрал
+
 ```
 Реализовать метод `UserMealsUtil.filteredByStreams` через Java 8 Stream API.
 ```
@@ -135,6 +149,8 @@ Java Enterprise Online Project
    - [Сергей Куксенко — Stream API, часть 2](https://www.youtube.com/watch?v=i0Jr2l3jrDA)
 
 ### Optional 2 (+5 бонусов)
+- [ ] Разобрал
+
 Сделать реализацию со сложностью O(N) (обратите внимание на п.13 замечаний):
 - циклом за 1 проход по `List<UserMeal>`
   - без циклов по другим коллекциям
