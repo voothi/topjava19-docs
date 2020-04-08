@@ -17,14 +17,16 @@ Java Enterprise Online Project
 
 Вводное занятие (обязательно смотреть все видео)
 ===============
-## 
-- [ ] Разобрал
+## Осваиваем Java Enterprise. Трудоустройство. Ответы на вопросы
+- [x] Разобрал
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/file/d/0B9Ye2auQ_NsFY1ZDNXRCd1NCTG8">Осваиваем Java Enterprise. Трудоустройство. Ответы на вопросы.</a>
 - <a href="https://goo.gl/XNVOj4">Слайды презентации</a>
 - <a href="http://zeroturnaround.com/rebellabs/java-tools-and-technologies-landscape-2016/">Java Tools and Technologies Landscape Report 2016</a>
 - [Java in 2017 Survey](http://www.baeldung.com/java-in-2017)
 - <a href="https://habrahabr.ru/post/308104/">Из юниоров в разработчики: получаем первую работу</a>
+
+    Это видео было рассмотрено в HW17 BaseJava
 
 #### Spring Pet-Clinic
 - <a href="https://github.com/spring-projects/spring-petclinic">Spring PetClinic Sample Application </a>
