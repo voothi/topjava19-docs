@@ -13,6 +13,12 @@ Java Enterprise Online Project
 
     Старинная китайская поговорка
 
+## <a href="description.md">Описание и план проекта</a>
+### <a href="http://topjava.herokuapp.com/" target=_blank>Демо разрабатываемого приложения</a>
+### [Изменения проекта (Release Notes)](ReleaseNotes.md)
+### <a href="https://github.com/JavaOPs/topjava/wiki">Требования к участникам, Wiki</a>
+### <a href="cv.md">Составление резюме, подготовка к интервью, поиск работы</a>
+
 ### [Демо разрабатываемого приложения](http://topjava.herokuapp.com/)
 
 Вводное занятие (обязательно смотреть все видео)
@@ -32,7 +38,7 @@ Java Enterprise Online Project
 - <a href="https://github.com/spring-projects/spring-petclinic">Spring PetClinic Sample Application </a>
 - <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">Presentation</a>
 
-## 
+## Системы управления версиями. Git
 - [ ] Разобрал
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 2. <a href="https://drive.google.com/file/d/0B9Ye2auQ_NsFSUNrdVc0bDZuX2s">Системы управления версиями. Git.</a>
@@ -48,12 +54,12 @@ Java Enterprise Online Project
     -  [Основы Git за 20 минут](https://www.youtube.com/watch?v=TMeZGvtQnT8)
     -  [Git - для новичков](https://www.youtube.com/watch?list=PLY4rE9dstrJyTdVJpv7FibSaXB4BHPInb&v=PEKN8NtBDQ0)
 
-##  
+##  Работа с проектом (выполнять инструкции)
 - [ ] Разобрал
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZDdaaU5fZEo4X3c">Работа с проектом (выполнять инструкции)</a>
 **ВНИМАНИЕ: выбирайте для проекта простой пусть без пробелов и русских букв, например (Windows) `c:\projects\topjava\`. Иначе впоследствии будут проблемы**
-### Патч <a href="https://drive.google.com/file/d/1QGFdLlBFqUA_lXMKaGaFPq8qn4SEvPeE">prepare_to_HW0.patch</a> (скачать и положить в каталог вашего проекта)
+### Патч [prepare_to_HW0.patch](https://drive.google.com/file/d/1LNPpu9OkuCpfpD8ZJHO-o0vwu49p2i5M) (скачать и положить в каталог вашего проекта)
 
 > Проект постоянно улучшается, поэтому видео иногда отличается от кода проекта. Изменения указываю после видео: 
 > - переименовал класс `UserMealWithExceed` и его поле `exceed` в `UserMealWithExcess.excess`
@@ -80,20 +86,24 @@ Java Enterprise Online Project
 -  Выполнить задание и залить на GitHub (commit + push)
 -  Переключиться в основную ветку проекта master.
 
-## 
+## Тех.задание: библия или допускаются изменения. Полуоткрытый интервал
 - [ ] Разобрал
 
+![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. [Тех.задание: библия или допускаются изменения. Полуоткрытый интервал.](https://drive.google.com/file/d/123XyBYVeKLC3ZcRr_dUkwyvO9NC6WLkY/view?usp=sharing)
+- [Типы промежутков](https://ru.wikipedia.org/wiki/Промежуток_(математика))
+
+## Домашнее задание HW0
 ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Домашнее задание HW0
 ```
 Реализовать метод `UserMealsUtil.filteredByCycles` через циклы (`forEach`):
--  должны возвращаться только записи между `startTime` и `endTime`
--  поле `UserMealWithExcess.excess` должно показывать, 
+- [ ] должны возвращаться только записи между `startTime` и `endTime`
+- [ ] поле `UserMealWithExcess.excess` должно показывать, 
                                      превышает ли сумма калорий за весь день значение `caloriesPerDay`
         
 Т.е `UserMealWithExcess` - это запись одной еды, но поле `excess` будет одинаково для всех записей за этот день.
     
-- Проверьте результат выполнения ДЗ (можно проверить логику в http://topjava.herokuapp.com , список еды)
-- Оцените Time complexity алгоритма. Если она больше O(N), например O(N*N) или N*log(N), сделайте O(N).
+- [ ] Проверьте результат выполнения ДЗ (можно проверить логику в http://topjava.herokuapp.com , список еды)
+- [ ] Оцените Time complexity алгоритма. Если она больше O(N), например O(N*N) или N*log(N), сделайте O(N).
 ```
 -  <a href="http://www.mscharhag.com/2014/02/java-8-datetime-api.html">Java 8 Date and Time API</a>
 -  <a href="https://tproger.ru/translations/algorithms-and-data-structures">Алгоритмы и структуры данных для начинающих: сложность алгоритмов</a>
@@ -145,7 +155,7 @@ Java Enterprise Online Project
 При использовании Stream API производительность улучшиться только на больших задачах, где возможно распараллеливание.
 Еще - просто так запустить и померять скорость JVM нельзя (как минимум дать прогреться и запустить очень большое число раз). Лучше использовать какие-нибудь бенчмарки, например [JMH](http://tutorials.jenkov.com/java-performance/jmh.html), который мы юзаем на другом проекте (Mastejava).
   
-## 
+## Замечания к HW0
 - [ ] Разобрал
 
 ![error](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Замечания к HW0
@@ -163,6 +173,7 @@ Java Enterprise Online Project
 - 12: Обращайте внимание на комментарии к вашим коммитам в git. Они должны быть короткие и информативные (лучше на english)
 - 13: Не полагайтесь в решении на то, что список будет подаваться отсортированным. Такого условия нет.
 -----
+## [Пример 7-го занятия онлайн стажировки, несколько видео открыто](https://github.com/JavaOPs/topjava/blob/master/doc/lesson07.md)
 
 ### Полезные ресурсы
 > ВНИМАНИЕ:
@@ -188,7 +199,7 @@ Java Enterprise Online Project
 #### Java (базовые вещи)
 - <a href="http://www.intuit.ru/studies/courses/16/16/info">Интуит. Программирование на Java</a>
 - <a href="https://github.com/JavaOPs/masterjava#Первое-занятие-многопоточность">1й урок MasterJava: Многопоточность</a>
-- <a href="http://ggenikus.github.io/blog/2014/05/04/gc">Основы Java garbage collection</a>
+- [Основы Java garbage collection](http://web.archive.org/web/20180831013112/https://ggenikus.github.io/blog/2014/05/04/gc)
 - <a href="https://habrahabr.ru/post/134102/">Размер Java объектов</a>
 - <a href="http://www.quizful.net/post/java-reflection-api">Введение в Java Reflection API</a>
 - <a href="https://habrahabr.ru/users/tarzan82/topics/">Структуры данных в картинках</a>
