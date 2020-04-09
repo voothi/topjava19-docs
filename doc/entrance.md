@@ -25,6 +25,9 @@ Java Enterprise Online Project
 ### <a href="https://github.com/JavaOPs/topjava/wiki">Требования к участникам, Wiki</a>
 - [ ] Разобрал
 
+Wiki
+- [x] [Home](/doc/wiki/home.md)
+
     Будем знакомиться с:
     
     Java 8 Stream and Time API
@@ -95,6 +98,16 @@ Java Enterprise Online Project
     UTF-8
 
     RBAC
+
+- [ ] [Git](/doc/wiki/git.md)
+
+
+- [ ] [Git](/doc/wiki/idea.md)
+
+
+- [ ] [Git](/doc/wiki/maven.md)
+
+
 
 ### <a href="cv.md">Составление резюме, подготовка к интервью, поиск работы</a>
 - [ ] Разобрал
