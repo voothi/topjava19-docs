@@ -101,13 +101,11 @@ Wiki
 
     Ehcache
 
-- [ ] [Git](/doc/wiki/git.md)
+- [x] [Git](/doc/wiki/git.md)
 
+- [ ] [IDEA](/doc/wiki/idea.md)
 
-- [ ] [Git](/doc/wiki/idea.md)
-
-
-- [ ] [Git](/doc/wiki/maven.md)
+- [ ] [Maven](/doc/wiki/maven.md)
 
 
 
