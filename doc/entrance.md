@@ -110,7 +110,7 @@ Wiki
 
 
 ### <a href="cv.md">Составление резюме, подготовка к интервью, поиск работы</a>
-- [ ] Разобрал
+- [x] Разобрал*
 
 ### [Демо разрабатываемого приложения](http://topjava.herokuapp.com/)
 - [x] Разобрал
@@ -149,7 +149,7 @@ Wiki
     -  [Git - для новичков](https://www.youtube.com/watch?list=PLY4rE9dstrJyTdVJpv7FibSaXB4BHPInb&v=PEKN8NtBDQ0)
 
 ##  Работа с проектом (выполнять инструкции)
-- [ ] Разобрал
+- [x] Разобрал
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFZDdaaU5fZEo4X3c">Работа с проектом (выполнять инструкции)</a>
 **ВНИМАНИЕ: выбирайте для проекта простой пусть без пробелов и русских букв, например (Windows) `c:\projects\topjava\`. Иначе впоследствии будут проблемы**
@@ -163,7 +163,7 @@ Wiki
 
 
 ##  Инструкция по шагам (из видео):</h3>
-- [ ] Разобрал
+- [x] Разобрал
 
 -  <a href="http://javaops.ru/view/soft">Установить ПО (git, JDK8, IntelliJ IDEA, Maven)</a>
 -  Создать аккаунт на <a href="https://github.com">GitHub</a>
