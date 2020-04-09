@@ -25,6 +25,77 @@ Java Enterprise Online Project
 ### <a href="https://github.com/JavaOPs/topjava/wiki">Требования к участникам, Wiki</a>
 - [ ] Разобрал
 
+    Будем знакомиться с:
+    
+    Java 8 Stream and Time API
+    Java 8: Lambda, Stream API
+
+    JNDI
+    
+    Bootstrap (CSS,JS)
+
+    jQuery
+      plugins, 
+        datatables
+      Ajax
+      Notifications
+
+    REST (Jackson)
+
+    архитектурные паттерны
+      Data Transfer Object
+        слои приложения
+
+    Spring MVC
+      Spring Web
+    Spring JDBC
+    Spring JDBC Template
+    Spring ORM
+    Spring Data JPA
+    Spring Security
+    Spring Security Test
+    Spring Security Taglib
+    Spring Internationalization
+      i18n
+    Spring Binding/Validation
+
+    JSP, JSTL, 
+
+    Hibernate
+      кэш 2-го уровня
+
+    Logback
+    Simple Logging Facade for Java (SLF4J)
+
+    JUnit
+      100 тестов
+
+    SoapUi
+
+    PostgreSQL
+    HSQLDB
+    
+    Connections Pool
+    
+    Tomcat
+      WAR
+      WebJars
+
+    Apache Commons, Guava
+
+    IDEA
+
+    CSRF
+    XSS 
+
+    Heroku
+
+    Обработка ошибок 404 
+
+    UTF-8
+
+    RBAC
+
 ### <a href="cv.md">Составление резюме, подготовка к интервью, поиск работы</a>
 - [ ] Разобрал
 
