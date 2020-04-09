@@ -99,6 +99,8 @@ Wiki
 
     RBAC
 
+    Ehcache
+
 - [ ] [Git](/doc/wiki/git.md)
 
 
