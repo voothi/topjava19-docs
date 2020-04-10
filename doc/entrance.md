@@ -103,11 +103,9 @@ Wiki
 
 - [x] [Git](/doc/wiki/git.md)
 
-- [ ] [IDEA](/doc/wiki/idea.md)
+- [x] * [IDEA](/doc/wiki/idea.md)
 
-- [ ] [Maven](/doc/wiki/maven.md)
-
-
+- [x] [Maven](/doc/wiki/maven.md)
 
 ### <a href="cv.md">Составление резюме, подготовка к интервью, поиск работы</a>
 - [x] Разобрал*
@@ -181,12 +179,12 @@ Wiki
 -  Переключиться в основную ветку проекта master.
 
 ## Тех.задание: библия или допускаются изменения. Полуоткрытый интервал
-- [ ] Разобрал
+- [x] Разобрал
 
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. [Тех.задание: библия или допускаются изменения. Полуоткрытый интервал.](https://drive.google.com/file/d/123XyBYVeKLC3ZcRr_dUkwyvO9NC6WLkY/view?usp=sharing)
 - [Типы промежутков](https://ru.wikipedia.org/wiki/Промежуток_(математика))
 
-## Домашнее задание HW0
+## Домашнее задание HW0 
 - [ ] Разобрал
 
 ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Домашнее задание HW0
