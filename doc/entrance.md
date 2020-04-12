@@ -232,10 +232,50 @@ https://habr.com/ru/post/237043/
 ```
 Реализовать метод `UserMealsUtil.filteredByStreams` через Java 8 Stream API.
 ```
--  <a href="http://www.youtube.com/watch?v=_PDIVhEs6TM">Видео: Доступно о Java 8 Lambda</a>
--  <a href="https://devcolibri.com/java-8-killer-features-%D1%87%D0%B0%D1%81%D1%82%D1%8C-1/">Java 8: Lambda выражения</a>
--  <a href="https://devcolibri.com/java-8-killer-features-%D1%87%D0%B0%D1%81%D1%82%D1%8C-2/">Java 8: Потоки</a>
+- v <a href="http://www.youtube.com/watch?v=_PDIVhEs6TM">Видео: Доступно о Java 8 Lambda</a>
+- v <a href="https://devcolibri.com/java-8-killer-features-%D1%87%D0%B0%D1%81%D1%82%D1%8C-1/">Java 8: Lambda выражения</a>
+- v <a href="https://devcolibri.com/java-8-killer-features-%D1%87%D0%B0%D1%81%D1%82%D1%8C-2/">Java 8: Потоки</a>
 -  <a href="https://javadevblog.com/polnoe-rukovodstvo-po-java-8-stream.html">Pуководство по Java 8 Stream</a>
+        Монада
+
+        операции над потоками
+          операции Stream API: reduce, collect и flatMap
+
+        как упорядочение потока операций влияет на производительность
+        Как потоки работают?
+
+          Операции
+            промежуточным
+              возвращают поток
+              filter, map и sorted
+            терминальным
+              возвращают void или непотоковый результат
+              forEach
+            
+            должны быть как
+              неинтерферирующими (non-interfering), так и 
+                не изменяет основной источник данных потока
+              лишенными состояния (stateless)
+                выполнение операции является детерминированным
+
+          https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html
+
+        Различные виды потоков (Streams)
+        Порядок обработки
+        Почему порядок выполнения в stream имеет значение
+        Повторное использование Потоков (Streams)
+        Продвинутые операции
+        Операция Collect
+        FlatMap
+        Reduce
+          Первый Reduce метод
+          Второй Reduce метод
+          Третий Reduce
+        Параллельные потоки
+        Итоги
+
+
+
 -  <a href="https://annimon.com/article/2778">Java 8 Stream API в картинках и примерах</a>
 -  [7 способов использовать groupingBy в Stream API](https://habrahabr.ru/post/348536)
 -  <a href="http://habrahabr.ru/post/224593/">Лямбда-выражения в Java 8</a>
