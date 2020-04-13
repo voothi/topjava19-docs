@@ -240,6 +240,10 @@ https://habr.com/ru/post/237043/
 
         операции над потоками
           операции Stream API: reduce, collect и flatMap
+            https://annimon.com/article/2778
+            - filter — отбирает элементы, значение которых меньше 300,
+            - map — прибавляет 11 к каждому числу,
+            - limit — ограничивает количество элементов до 3.
 
         как упорядочение потока операций влияет на производительность
         Как потоки работают?
@@ -261,11 +265,29 @@ https://habr.com/ru/post/237043/
           https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html
 
         Различные виды потоков (Streams)
+          Stream.of
+          Arrays.asList
+          IntStream.range
+          Arrays.stream
+
+
         Порядок обработки
+          как поток операций обрабатываются
+
+IDEA
+
+    Alt ` Git
+
+          
+
         Почему порядок выполнения в stream имеет значение
         Повторное использование Потоков (Streams)
         Продвинутые операции
         Операция Collect
+
+          Collect принимает Collector, который состоит из четырех различных операций: поставщик, аккумулятор, объединитель и финишер
+
+
         FlatMap
         Reduce
           Первый Reduce метод
@@ -273,8 +295,6 @@ https://habr.com/ru/post/237043/
           Третий Reduce
         Параллельные потоки
         Итоги
-
-
 
 -  <a href="https://annimon.com/article/2778">Java 8 Stream API в картинках и примерах</a>
 -  [7 способов использовать groupingBy в Stream API](https://habrahabr.ru/post/348536)
