@@ -5,14 +5,24 @@
 - **При первом Apply удобнее выбрать имя локального ченджлиста Name: Default**. Далее все остальные патчи также будут в него попадать.
 - **Код проекта обновляется и не всегда совпадает с видео (можно увидеть как развивался проект). Изменения в проекте указываю после соответствующего патча.** 
 
+- [x] Принял
+
 ## <a href="https://drive.google.com/drive/u/0/folders/0B9Ye2auQ_NsFfm5hSHEtbmxmN2kxb0NocVRwWl9KanowWXVCVXRZTlhaM09wQUswZkRidTA">Материалы занятия</a> (скачать все патчи можно через `Download/Скачать` папки patch)
 ![image](https://cloud.githubusercontent.com/assets/13649199/18330295/5f2ca214-7560-11e6-8e1e-c0494f798c37.png)
+
+- [x] Сделал
 
 ### ![correction](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Рефакторинг проекта
 
 #### Apply 1_0_rename.patch
 - переименовал классы `UserMeal*` в более красивые `Meal*`
 - преименовал `MealWithExceed` transfer object класс (что это такое пройдем позже)  в `MealTo` ([data transfer object naming convention](https://stackoverflow.com/questions/1724774/java-data-transfer-object-naming-convention))
+
+- [x] Сделал. Патч не содержитал ардейт - смержил вручную из HW2
+          
+      public static boolean isBetweenInclusive(LocalTime lt, LocalTime startTime, LocalTime endTime) {
+          return lt.compareTo(startTime) >= 0 && lt.compareTo(endTime) <= 0;
+      }
 
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW0:
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/file/d/1hXU8VUKVxrayyQ6Xu7f3OGZWCSdK9Pyi">Optional: реализация getFilteredMealsWithExcess через Stream API</a>
@@ -34,6 +44,8 @@
 > В `MealsUtil` у нас где-то есть ключевое слово `final`, где-то нет. В чем разница?
 
 Я участвовал в одном  проекте, где `final` был обязательным (в сеттингах IDEA галочка стояла). Но это скорее исключение, чем правило в проектах java (в Java 8 вообще ввели эффективный final, те по факту). Во всех новомодных языках переменные final по умолчанию, а в java нужно помнить и везде добавлять, утомительно. Но если приучитесь - хуже не будет. Я обычно ставлю там, где важно по смыслу (если не забываю).
+
+    В Java 8 ввели понятие effectively final - это переменные, которые не имеют модификатора final , но могут использоваться в анонимных классах и лямбда-выражениях
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=1aq3hDmUUdWJujsX6zTqookJjXWOD3PBJ">HW0 Optional 2: реализация в один проход и одной строкой Stream API</a>
 
