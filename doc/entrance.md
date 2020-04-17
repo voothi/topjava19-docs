@@ -23,83 +23,83 @@ Java Enterprise Online Project
 - [x] Разобрал
 
 ### <a href="https://github.com/JavaOPs/topjava/wiki">Требования к участникам, Wiki</a>
-- [ ] Разобрал
+- [x] Разобрал
 
 Wiki
 - [x] [Home](/doc/wiki/home.md)
 
-    Будем знакомиться с:
-    
-    Java 8 Stream and Time API
-    Java 8: Lambda, Stream API
+      Будем знакомиться с:
+      
+      Java 8 Stream and Time API
+      Java 8: Lambda, Stream API
 
-    JNDI
-    
-    Bootstrap (CSS,JS)
+      JNDI
+      
+      Bootstrap (CSS,JS)
 
-    jQuery
-      plugins, 
-        datatables
-      Ajax
-      Notifications
+      jQuery
+        plugins, 
+          datatables
+        Ajax
+        Notifications
 
-    REST (Jackson)
+      REST (Jackson)
 
-    архитектурные паттерны
-      Data Transfer Object
-        слои приложения
+      архитектурные паттерны
+        Data Transfer Object
+          слои приложения
 
-    Spring MVC
-      Spring Web
-    Spring JDBC
-    Spring JDBC Template
-    Spring ORM
-    Spring Data JPA
-    Spring Security
-    Spring Security Test
-    Spring Security Taglib
-    Spring Internationalization
-      i18n
-    Spring Binding/Validation
+      Spring MVC
+        Spring Web
+      Spring JDBC
+      Spring JDBC Template
+      Spring ORM
+      Spring Data JPA
+      Spring Security
+      Spring Security Test
+      Spring Security Taglib
+      Spring Internationalization
+        i18n
+      Spring Binding/Validation
 
-    JSP, JSTL, 
+      JSP, JSTL, 
 
-    Hibernate
-      кэш 2-го уровня
+      Hibernate
+        кэш 2-го уровня
 
-    Logback
-    Simple Logging Facade for Java (SLF4J)
+      Logback
+      Simple Logging Facade for Java (SLF4J)
 
-    JUnit
-      100 тестов
+      JUnit
+        100 тестов
 
-    SoapUi
+      SoapUi
 
-    PostgreSQL
-    HSQLDB
-    
-    Connections Pool
-    
-    Tomcat
-      WAR
-      WebJars
+      PostgreSQL
+      HSQLDB
+      
+      Connections Pool
+      
+      Tomcat
+        WAR
+        WebJars
 
-    Apache Commons, Guava
+      Apache Commons, Guava
 
-    IDEA
+      IDEA
 
-    CSRF
-    XSS 
+      CSRF
+      XSS 
 
-    Heroku
+      Heroku
 
-    Обработка ошибок 404 
+      Обработка ошибок 404 
 
-    UTF-8
+      UTF-8
 
-    RBAC
+      RBAC
 
-    Ehcache
+      Ehcache
 
 - [x] [Git](/doc/wiki/git.md)
 
@@ -276,9 +276,7 @@ https://habr.com/ru/post/237043/
 
 IDEA
 
-    Alt ` Git
-
-          
+    Alt ` Git 
 
         Почему порядок выполнения в stream имеет значение
         Повторное использование Потоков (Streams)
