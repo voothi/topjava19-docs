@@ -210,7 +210,6 @@ MealTo{dateTime=2020-01-30T10:00, description='Завтрак', calories=500, ex
 MealTo{dateTime=2020-01-31T10:00, description='Завтрак', calories=1000, excess=true}
 
     состояние не должно протекать за этот метод
-
     
     алго
     ---
