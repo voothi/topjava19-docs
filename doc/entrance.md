@@ -462,7 +462,7 @@ https://habr.com/ru/post/237043/
       Параллельные потоки
       Итоги
 
-- [ ]  Хорошая статья с визуализией <a href="https://annimon.com/article/2778">Java 8 Stream API в картинках и примерах</a>
+- [x]  Хорошая статья с визуализией <a href="https://annimon.com/article/2778">Java 8 Stream API в картинках и примерах</a>
 
       Полное руководство по Java 8 Stream API в картинках и примерах
 
@@ -526,8 +526,8 @@ https://habr.com/ru/post/237043/
       R collect​(Supplier supplier, BiConsumer accumulator, BiConsumer combiner)
       Object[] toArray​()
       
-      * T reduce​(T identity, BinaryOperator accumulator)
-      U reduce​(U identity, BiFunction accumulator, BinaryOperator combiner)
+      T reduce​(T identity, BinaryOperator accumulator)
+      v U reduce​(U identity, BiFunction accumulator, BinaryOperator combiner)
       Optional reduce​(BinaryOperator accumulator)
       
       Optional min​(Comparator comparator)
@@ -536,7 +536,7 @@ https://habr.com/ru/post/237043/
       Optional findAny​()
       Optional findFirst​()
       
-      - boolean allMatch​(Predicate predicate)
+      boolean allMatch​(Predicate predicate)
       boolean anyMatch​(Predicate predicate)
       boolean noneMatch​(Predicate predicate)
       
@@ -615,9 +615,7 @@ https://habr.com/ru/post/237043/
 
       2.  Задачи
 
-      3.  Советы и best practices
-
-
+      * 3.  Советы и best practices
 
 - [ ]  [7 способов использовать groupingBy в Stream API](https://habrahabr.ru/post/348536)
 - [ ]  <a href="http://habrahabr.ru/post/224593/">Лямбда-выражения в Java 8</a>
