@@ -522,11 +522,11 @@ https://habr.com/ru/post/237043/
       void forEach​(Consumer action)
       void forEachOrdered​(Consumer action)
       long count​()
-      * R collect​(Collector collector)
+      R collect​(Collector collector)
       R collect​(Supplier supplier, BiConsumer accumulator, BiConsumer combiner)
       Object[] toArray​()
       
-      T reduce​(T identity, BinaryOperator accumulator)
+      * T reduce​(T identity, BinaryOperator accumulator)
       U reduce​(U identity, BiFunction accumulator, BinaryOperator combiner)
       Optional reduce​(BinaryOperator accumulator)
       
@@ -536,7 +536,7 @@ https://habr.com/ru/post/237043/
       Optional findAny​()
       Optional findFirst​()
       
-      boolean allMatch​(Predicate predicate)
+      - boolean allMatch​(Predicate predicate)
       boolean anyMatch​(Predicate predicate)
       boolean noneMatch​(Predicate predicate)
       
