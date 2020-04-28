@@ -463,6 +463,162 @@ https://habr.com/ru/post/237043/
       Итоги
 
 - [ ]  Хорошая статья с визуализией <a href="https://annimon.com/article/2778">Java 8 Stream API в картинках и примерах</a>
+
+      Полное руководство по Java 8 Stream API в картинках и примерах
+
+      1. Stream
+      2. Получение объекта Stream
+      3. Как работает стрим
+      4. Параллельные стримы
+      5. Стримы для примитивов
+      6. Операторы Stream API
+      6.1. Источники
+      empty()
+
+      of(T value)
+      of(T... values)
+
+      ofNullable(T t)
+
+      generate(Supplier s)
+
+      iterate​(T seed, UnaryOperator f)
+      iterate​(T seed, Predicate hasNext, UnaryOperator f)
+
+      concat(Stream a, Stream b)
+
+      builder()
+
+      IntStream.range​(int startInclusive, int endExclusive)
+      LongStream.range​(long startInclusive, long endExclusive)
+
+      IntStream.rangeClosed​(int startInclusive, int endInclusive)
+      LongStream.range​Closed(long startInclusive, long endInclusive)
+
+      6.2. Промежуточные операторы
+      filter​(Predicate predicate)
+
+      map​(Function mapper)
+
+      flatMap​(Function<T, Stream<R>> mapper)
+
+      limit​(long maxSize)
+
+      skip​(long n)
+
+      sorted​()
+      sorted​(Comparator comparator)
+
+      distinct​()
+
+      peek​(Consumer action)
+
+      takeWhile​(Predicate predicate)
+      dropWhile​(Predicate predicate)
+
+      boxed()
+
+      6.3. Терминальные операторы
+      void forEach​(Consumer action)
+      void forEachOrdered​(Consumer action)
+      long count​()
+      * R collect​(Collector collector)
+      R collect​(Supplier supplier, BiConsumer accumulator, BiConsumer combiner)
+      Object[] toArray​()
+      
+      T reduce​(T identity, BinaryOperator accumulator)
+      U reduce​(U identity, BiFunction accumulator, BinaryOperator combiner)
+      Optional reduce​(BinaryOperator accumulator)
+      
+      Optional min​(Comparator comparator)
+      Optional max​(Comparator comparator)
+      
+      Optional findAny​()
+      Optional findFirst​()
+      
+      boolean allMatch​(Predicate predicate)
+      boolean anyMatch​(Predicate predicate)
+      boolean noneMatch​(Predicate predicate)
+      
+      OptionalDouble average​()
+      sum()
+      IntSummaryStatistics summaryStatistics()
+      
+      1. Методы Collectors
+      toList​()
+      toSet​()
+      toCollection​(Supplier collectionFactory)
+      
+      toMap​(Function keyMapper, Function valueMapper)
+      toMap​(Function keyMapper, Function valueMapper, BinaryOperator mergeFunction)
+      toMap​(Function keyMapper, Function valueMapper, BinaryOperator mergeFunction, Supplier mapFactory)
+      
+      toConcurrentMap​(Function keyMapper, Function valueMapper)
+      toConcurrentMap​(Function keyMapper, Function valueMapper, BinaryOperator mergeFunction)
+      toConcurrentMap​(Function keyMapper, Function valueMapper, BinaryOperator mergeFunction, Supplier mapFactory)
+      
+      collectingAndThen​(Collector downstream, Function finisher)
+      joining​()
+      joining​(CharSequence delimiter)
+      joining​(CharSequence delimiter, CharSequence prefix, CharSequence suffix)
+      
+      summingInt​(ToIntFunction mapper)
+      summingLong​(ToLongFunction mapper)
+      summingDouble​(ToDoubleFunction mapper)
+      
+      averagingInt​(ToIntFunction mapper)
+      averagingLong​(ToLongFunction mapper)
+      averagingDouble​(ToDoubleFunction mapper)
+      Аналогично, но со средним значением.
+
+      summarizingInt​(ToIntFunction mapper)
+      summarizingLong​(ToLongFunction mapper)
+      summarizingDouble​(ToDoubleFunction mapper)
+      Аналогично, но с полной статистикой.
+
+      counting​()
+
+      filtering​(Predicate predicate, Collector downstream)
+      mapping​(Function mapper, Collector downstream)
+      flatMapping​(Function downstream)
+      reducing​(BinaryOperator op)
+      reducing​(T identity, BinaryOperator op)
+      reducing​(U identity, Function mapper, BinaryOperator op)
+
+      minBy​(Comparator comparator)
+      maxBy​(Comparator comparator)
+
+      groupingBy​(Function classifier)
+      groupingBy​(Function classifier, Collector downstream)
+      groupingBy​(Function classifier, Supplier mapFactory, Collector downstream)
+
+      groupingByConcurrent​(Function classifier)
+      groupingByConcurrent​(Function classifier, Collector downstream)
+      groupingByConcurrent​(Function classifier, Supplier mapFactory, Collector downstream)
+
+      partitioningBy​(Predicate predicate)
+      partitioningBy​(Predicate predicate, Collector downstream)
+
+      1. Collector
+      8.1. Реализация собственного коллектора
+      1. Spliterator
+      9.1. Характеристики
+      9.2. Жизненный цикл сплитератора
+      9.3. Реализация сплитератора
+
+      1.  Другие способы создания источников
+      10.1. Стрим из итератора
+      10.2. Stream.iterate + map
+      10.3. IntStream.range + map
+
+      1.  Примеры
+
+      2.  Задачи
+
+      3.  Советы и best practices
+
+
+
 - [ ]  [7 способов использовать groupingBy в Stream API](https://habrahabr.ru/post/348536)
 - [ ]  <a href="http://habrahabr.ru/post/224593/">Лямбда-выражения в Java 8</a>
 - [ ]  <a href="https://github.com/winterbe/java8-tutorial">A Guide to Java 8</a>
