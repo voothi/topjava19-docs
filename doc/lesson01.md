@@ -25,6 +25,8 @@
       }
 
 ## ![hw](https://cloud.githubusercontent.com/assets/13649199/13672719/09593080-e6e7-11e5-81d1-5cb629c438ca.png) Разбор домашнего задания HW0:
+- [x] Прошел
+
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 1. <a href="https://drive.google.com/file/d/1hXU8VUKVxrayyQ6Xu7f3OGZWCSdK9Pyi">Optional: реализация getFilteredMealsWithExcess через Stream API</a>
 #### Apply 1_1_HW0_streams.patch
 
@@ -48,16 +50,70 @@
     В Java 8 ввели понятие effectively final - это переменные, которые не имеют модификатора final , но могут использоваться в анонимных классах и лямбда-выражениях
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 3. <a href="https://drive.google.com/open?id=1aq3hDmUUdWJujsX6zTqookJjXWOD3PBJ">HW0 Optional 2: реализация в один проход и одной строкой Stream API</a>
+- [x] Прошел
 
 #### Apply 1_3_HW0_optional2.patch
 - [VK: Java программист: от новичка до профессионала](https://vk.com/javawebinar)
 - Дополнительно:
   - [Первое занятие MasterJava: многопоточность](https://github.com/JavaOPs/masterjava)
   - [Обзор java.util.concurrent.*](https://habr.com/ru/company/luxoft/blog/157273/)
- 
+
+#### Аннотация видео
+
+    0829
+
+    Отложенные операция 
+    Supplier
+
+    Передаем лямбду, 
+      при этом, 
+        вычиления производятся 
+          на основании переменных, находящихся 
+          за пределами этой лямбды
+    Это называется замыканием функции closure
+
+    0926
+
+    Можем внутри замыканий использовать 
+    final переменные снаружи или effectively final в 8-ой, которые по факту не меняются
+
+    0951
+
+    Решение, совместимое с текущим
+    Тоже связано с отложенными операциями
+
+    MealTo можно не модифицировать
+
+    1229
+
+    Решение в один цикл с потоками
+
+    1235
+
+    Следующее решение Валерии
+
+    1347
+
+    Решение от Григория через синхронизатор
+
+    CountDownLatch
+    Синхронизация выполнения программы в зависимости от его состояния
+
+    await ожидает, пока счетчик не станет равным нулю
+
+    1424
+
+    еще решение
+
+    На основе предиката
+
+    можем связывать предикаты в цепочки
+
 ## Занятие 1:
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 4. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFRmo0YkVVaDJPTVE">Обзор используемых в проекте технологий. Интеграция ПО.</a>
+- [x] Просмотрел видео
+
 - [2020 Java Technology Report](https://www.jrebel.com/blog/2020-java-technology-report)
 - <a href="http://zeroturnaround.com/rebellabs/java-tools-and-technologies-landscape-2016/">Обзор популярности инструментов и технологий Java за 2016 г.</a>
 -  <a href="http://zeroturnaround.com/rebellabs/java-tools-and-technologies-landscape-for-2014/">Обзор популярности инструментов и технологий Java за 2014 г.</a>
@@ -65,6 +121,10 @@
 -  Приложение <a href="https://github.com/spring-projects/spring-petclinic">Spring Pet Clinic</a>. 
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. [Обзор языка Java и его инфраструктуры](https://www.youtube.com/watch?v=jWfqopZwcNs)
+***
+HEAD
+***
+
 - [Tiobe index](https://www.tiobe.com/tiobe-index/)
 - [RebelLabs Developer Productivity Report 2017: Why do you use the Java tools you use](https://zeroturnaround.com/rebellabs/developer-productivity-report-2017-why-do-you-use-java-tools-you-use/)
 - [The State of Java in 2018](https://www.baeldung.com/java-in-2018)
@@ -302,3 +362,5 @@ protected void doPost(HttpServletRequest request, ...) {
   - 2 снова заходим в сервлет
   - 3 кладем нужные атрибуты и делаем forward на jsp
   - 4 если очень хочется передать параметры из 1. в 2. можно сделать их через параметры запроса (например `meals?id=5`) и доставать через `reg.getParameter(id)`. В моей реализации такого не потребовалось.
+
+
