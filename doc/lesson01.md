@@ -121,9 +121,7 @@
 -  Приложение <a href="https://github.com/spring-projects/spring-petclinic">Spring Pet Clinic</a>. 
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. [Обзор языка Java и его инфраструктуры](https://www.youtube.com/watch?v=jWfqopZwcNs)
-***
-HEAD
-***
+- [x] Просмотрел
 
 - [Tiobe index](https://www.tiobe.com/tiobe-index/)
 - [RebelLabs Developer Productivity Report 2017: Why do you use the Java tools you use](https://zeroturnaround.com/rebellabs/developer-productivity-report-2017-why-do-you-use-java-tools-you-use/)
@@ -131,6 +129,8 @@ HEAD
 - [2018 JDK, Tools, Platform and Application, processes and you reports](https://snyk.io/blog/jvm-ecosystem-report-2018/)
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSlZMTXBJRXJpakU">Maven.</a>
+- [x] Просмотрел
+
 - Среда сборки проектов <a href="http://www.apache-maven.ru/" target="_blank">Maven</a>.
 - <a href="http://search.maven.org/#browse">The Central Repository</a>
 - <a href="http://maven.apache.org/guides/mini/guide-multiple-modules.html">The Reactor</a>. Snapshots
@@ -148,6 +148,10 @@ HEAD
   - <a href="http://blog.bintray.com/2014/02/11/bintray-as-pain-free-gateway-to-maven-central/">Bintray: gateway to Maven Central</a>
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT3pWNkMzWVVybnc">WAR. Веб-контейнер Tomcat. Сервлеты.</a>
+***
+HEAD
+***
+
 > - Обновил зависимость до Servlet 4.0. Установите себе [Tomcat 9.x](https://tomcat.apache.org/download-90.cgi)
 > - Устанавливать Tomcat лучше простым скачиванием архива `xxx.zip` и копированием из него в **каталог без пробелов и русских букв** (пример `С:\java\apache-tomcat-9.0.30`)
 
