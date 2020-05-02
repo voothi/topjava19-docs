@@ -148,9 +148,58 @@
   - <a href="http://blog.bintray.com/2014/02/11/bintray-as-pain-free-gateway-to-maven-central/">Bintray: gateway to Maven Central</a>
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 7. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFT3pWNkMzWVVybnc">WAR. Веб-контейнер Tomcat. Сервлеты.</a>
-***
-HEAD
-***
+
+##### Аннотация видео
+
+    1407
+
+    Добавляем 1_5_add_servlet_api.patch
+
+    IDEA 
+    Ctrl D - чекин проверить merge
+
+    Alt L R можем переходить по файлам
+
+    2343
+
+    Maven
+
+    install - для многомодульных проектов, котоые зависят д от д
+
+    у нас одномодульный проект
+
+    2522
+
+    Деплой WAR в Tomcat через /manager
+
+    3152
+
+    Настройка дебага 8000
+
+    %CATALINA_HOME%\bin\catalina.bat jpda start
+
+    Tomcat Remote Debug
+
+    4045
+
+    Включение автообновление ресурсов
+
+    IDEA 
+
+    передеплой при изменеии класса
+    добавляем редирект
+    Ctrl Shift F9
+
+    JVM в режиме дебага может автоматом подхватывать
+
+    если структурные изменения
+      добавили метод
+        или поменяли параметр в методе, то не подхватит
+
+        JRocket подхватывает, но она платная
+
+    response.sendRedirect("users.jsp");
+      запрос при редиректе проходит через браузер
 
 > - Обновил зависимость до Servlet 4.0. Установите себе [Tomcat 9.x](https://tomcat.apache.org/download-90.cgi)
 > - Устанавливать Tomcat лучше простым скачиванием архива `xxx.zip` и копированием из него в **каталог без пробелов и русских букв** (пример `С:\java\apache-tomcat-9.0.30`)
