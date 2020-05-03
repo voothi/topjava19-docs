@@ -259,6 +259,32 @@ HEAD
 ***
 ### Логирование
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaTdYUnpLNFFUeXM">Логирование.</a>
+
+#### Аннотация видео
+
+    Meven
+
+    scope
+
+    compile
+    кладем в пакет
+
+    provided
+    не тянем в пакет
+
+    log4j
+      нужен адаптер для slf4j, т.к. не реализует
+
+    slf4j
+      интерфейс
+        jul
+        logback
+          современные фреймворки
+
+    jmx
+      удаленно можем менять уровень логирования
+        без выключения JVM
+
 #### Apply 1_7_logging.patch
  
 > **Установите переменную окружения на TOPJAVA_ROOT на корень проекта и перезапустите IDEA. Слеши в пути должны быть в стиле unix (/)**
