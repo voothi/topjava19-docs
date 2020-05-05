@@ -254,9 +254,7 @@
   - <a href="http://blog.trifork.com/2014/07/14/how-to-remotely-debug-application-running-on-tomcat-from-within-intellij-idea">Remotely debug on tomcat from IDEA</a>
   - <a href="http://java-online.ru/jsp.xhtml">Java Server Page</a>
   - <a href="http://stackoverflow.com/questions/1890438/how-to-get-parameters-from-the-url-with-jsp#1890462">Java объекты, доступные в JSP</a>
-***
-HEAD
-***
+
 ### Логирование
 ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 8. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFaTdYUnpLNFFUeXM">Логирование.</a>
 
@@ -548,6 +546,9 @@ JSF- sun-овский еще фреймворк, с которым я ни ра�
               http://cyclowiki.org/wiki/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0_(Java)
 
   - [x] [Как создать Servlet? Полное руководство](https://devcolibri.com/как-создать-servlet-полное-руководство)
+***
+HEAD
+***
   - [JSTL для написания JSP страниц](https://devcolibri.com/jstl-для-написания-jsp-страниц/)
   - <a href="http://javatutor.net/articles/jstl-patterns-for-developing-web-application-1">JSTL: Шаблоны для разработки веб-приложений в java</a>
   - <a href="http://stackoverflow.com/questions/35606551/jstl-localdatetime-format">JSTL LocalDateTime format</a>
