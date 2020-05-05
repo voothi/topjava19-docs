@@ -233,8 +233,8 @@
 
 #### Apply 1_6_forward_to_redirect.patch
 
-- <a href="http://tomcat.apache.org/">Tomcat Home Page</a>
-- <a href="http://java-course.ru/student/book1/servlet/">Сервлеты</a>
+- [ ] <a href="http://tomcat.apache.org/">Tomcat Home Page</a>
+- [x] <a href="http://java-course.ru/student/book1/servlet/">Сервлеты</a>
 - <a href="https://devcolibri.com/как-создать-servlet-полное-руководство/">Руководство: как создать servlet</a>
 - Томкат менеджер: [http://localhost:8080/manager](http://localhost:8080/manager)
   - в `TOMCAT_HOME\conf\tomcat-users.xml` нужно добавить 
@@ -299,8 +299,19 @@ HEAD
 >   - [slf4j formatting with {}](http://stackoverflow.com/a/10596390/548473)
 >   - [What is the fastest way of (not) logging](https://www.slf4j.org/faq.html#logging_performance)
 
-- <a href="http://habrahabr.ru/post/113145/">Java Logging: история кошмара</a>
-- <a href="http://skipy.ru/useful/logging.html">Ведение лога приложения</a>
+- [x] <a href="http://habrahabr.ru/post/113145/">Java Logging: история кошмара</a>
+- [ ] <a href="http://skipy.ru/useful/logging.html">Ведение лога приложения</a>
+
+      java.util.logging появился в JavaSE в версии 1.4, в 2001 году
+
+      https://logging.apache.org/log4j/2.x/
+
+      Apache Commons Logging
+        Самое неприятное – при некоторых условиях4 у этого фреймворка есть проблемы с загрузчиком классов
+        https://www.examclouds.com/ru/java/java-core-russian/classpath-russian
+
+      SLF4J - Simple Logging Facade for Java
+
 - <a href="http://logging.apache.org/log4j/2.x/index.html">Log4j</a>, <a href="http://logback.qos.ch/">Logback</a>
 - <a href="http://www.slf4j.org/legacy.html">Добавление зависимостей логирования</a> в проект.
 - <a href="http://logback.qos.ch/manual/configuration.html#variableSubstitution">Logback variable substitution</a>
@@ -370,8 +381,36 @@ JSF- sun-овский еще фреймворк, с которым я ни ра�
     ...
 ```
 
-  - <a href="http://java-course.ru/student/book1/servlet/">Интернет-приложения на JAVA</a>
-  - <a href="http://java-course.ru/student/book1/jsp/">JSP</a>
+  - [x] <a href="http://java-course.ru/student/book1/servlet/">Интернет-приложения на JAVA</a>
+  - [ ] <a href="http://java-course.ru/student/book1/jsp/">JSP</a>
+
+        http://java-online.ru/servlet-context.xhtml
+        ServletContext
+
+        https://dev64.wordpress.com/2012/03/23/simple-servlet-using-maven/
+
+        java-my-experiments
+
+        http://java-online.ru/servlet-context.xhtml
+          По сути JSP при первом обращении преобразуется в сервлет и работает уже как сервлет. Это очень важно понять. 
+          
+          JSP НЕ ЯВЛЯЕТСЯ страницей наподобие HTML-страницы — начинающему програмисту важно четко осознавать, 
+          что это еще один сервлет — просто его вывод не надо программировать
+
+          JSP имеет в своем составе несколько предопределенных объектов. 
+          Т.е. их надо воспринимать, как уже готовые объекты, которые могут быть использованы. 
+          Это request, response, out, session, application, config, pageContext и page.
+
+        https://www.examclouds.com/java/java-core-russian/potoki-dannih
+        Потоки
+
+        https://ru.wikipedia.org/wiki/HTTP
+
+
+        https://proselyte.net/tutorials/servlets/server-response/
+
+        https://metanit.com/java/javaee/4.4.php
+
   - [Как создать Servlet? Полное руководство](https://devcolibri.com/как-создать-servlet-полное-руководство)
   - [JSTL для написания JSP страниц](https://devcolibri.com/jstl-для-написания-jsp-страниц/)
   - <a href="http://javatutor.net/articles/jstl-patterns-for-developing-web-application-1">JSTL: Шаблоны для разработки веб-приложений в java</a>
@@ -380,6 +419,7 @@ JSF- sun-овский еще фреймворк, с которым я ни ра�
 ### Optional
 #### 2. Реализуем в ПАМЯТИ CRUD (create/read/update/delete) для еды
 **Пример: <a href="http://danielniko.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/">Simple CRUD using Servlet/JSP</a>**
+https://web.archive.org/web/20190718152346/http://danielniko.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/
 > - Пример нужно САМОСТОЯТЕЛЬНО переделать: вместо хранения в MySql нужно хранить в ПАМЯТИ (задание упрощается).
 > - Классы: сервлет, инрерфейс хранения, его реализация для хранения в памяти
 - 2.1 Хранение в памяти будет одна из наших CRUD реализаций (позже будет JDBC, JPA и DATA-JPA).
