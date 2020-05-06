@@ -298,7 +298,7 @@
 >   - [What is the fastest way of (not) logging](https://www.slf4j.org/faq.html#logging_performance)
 
 - [x] <a href="http://habrahabr.ru/post/113145/">Java Logging: история кошмара</a>
-- [ ] <a href="http://skipy.ru/useful/logging.html">Ведение лога приложения</a>
+- [x] <a href="http://skipy.ru/useful/logging.html">Ведение лога приложения</a>
 
       java.util.logging появился в JavaSE в версии 1.4, в 2001 году
 
