@@ -546,10 +546,10 @@ JSF- sun-овский еще фреймворк, с которым я ни ра�
               http://cyclowiki.org/wiki/%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0_(Java)
 
   - [x] [Как создать Servlet? Полное руководство](https://devcolibri.com/как-создать-servlet-полное-руководство)
+  - [x] [JSTL для написания JSP страниц](https://devcolibri.com/jstl-для-написания-jsp-страниц/)
 ***
 HEAD
 ***
-  - [JSTL для написания JSP страниц](https://devcolibri.com/jstl-для-написания-jsp-страниц/)
   - <a href="http://javatutor.net/articles/jstl-patterns-for-developing-web-application-1">JSTL: Шаблоны для разработки веб-приложений в java</a>
   - <a href="http://stackoverflow.com/questions/35606551/jstl-localdatetime-format">JSTL LocalDateTime format</a>
 
