@@ -213,6 +213,8 @@
     response.sendRedirect("users.jsp");
       запрос при редиректе проходит через браузер
 
+    http://www.skipy.ru/philosophy/beginning.html
+
 > - Обновил зависимость до Servlet 4.0. Установите себе [Tomcat 9.x](https://tomcat.apache.org/download-90.cgi)
 > - Устанавливать Tomcat лучше простым скачиванием архива `xxx.zip` и копированием из него в **каталог без пробелов и русских букв** (пример `С:\java\apache-tomcat-9.0.30`)
 
